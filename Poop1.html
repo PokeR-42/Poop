@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <button onclick = ask()>Add</button>
+  <button onclick = subtract()>Subtract</button>
+  <button onclick = display()>Display student list</button>
+  <button onclick = find()>Find Student</button>
+  <button onclick = remove()>Remove specific student</button>
+  <button onclick = randomize()>Randomize</button>
+  <button onclick = sort()>Sort Names</button>
+  <button onclick = reverse()>Reverse Names</button>
+  <button onclick = extra()>Add Extra Info</button>
+  <button onclick = table()>Convert to Table</button>
+  <button onclick = save()>Save Data</button>
+  <button onclick = load()>Load Data</button>
+  <div id = "fart"></div>
+  <div id = "displayDiv"></div>
+  <table id = "t">
+  </table>
+  <form>
+    <label for="name">Student Name:</label><br>
+    <input type="stname" id="name" name="name"><br>
+    <label for="grade">Student Grade:</label><br>
+    <input type="stgrade" id="grade" name="grade"><br>
+    <label for="id">Student ID:</label><br>
+    <input type="stid" id="id" name="id">
+  </form>
+  <button onclick=submit()>Submit</button>
+  <script src="script.js"></script>
+</body>
+
+</html>
